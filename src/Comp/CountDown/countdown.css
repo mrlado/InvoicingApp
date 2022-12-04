@@ -1,0 +1,30 @@
+.Counts{
+     font-size: 18px;
+}
+.flex{
+    display: flex;
+}
+.flexstart{
+justify-content: flex-start;
+align-items: flex-start;
+text-align: start;
+}
+
+.flexEnd{
+justify-content: flex-end;
+align-items: flex-end;
+text-align: end
+}
+.borderBottom{
+    border: 1px solid lightgray;
+}
+.Inputdisable{
+    background-color: transparent;
+    border: none;
+}
+.flex1{
+    flex: 1;
+}
+.flex3{
+    flex: 3;
+}

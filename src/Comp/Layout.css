@@ -1,0 +1,125 @@
+.Layout{
+    max-width: 894px;
+}
+
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spaceBetween{
+    justify-content: space-between;
+}
+.JustEnd{
+    justify-content: end;
+}
+.border{
+    border: 1px solid black;
+}
+.Divider{
+    width: 100%;
+    height: 7px;
+    height: 10px;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+}
+.Invoice.Nomber{
+    justify-items: end;
+    width: 150px;
+    height: 150px;
+}
+.bill{
+    width: 50vw;
+    height: 200px;
+}
+.Invoice{
+    height: 25px;
+    text-align: center;
+}
+.Nomber{
+flex: 1;
+}
+.Description{
+flex: 2;
+border-right: 1px solid lightgray;
+}
+.QTY{
+    flex: 1;
+    border-right: 1px solid lightgray;
+}
+.Price{
+flex: 1;
+border-right: 1px solid lightgray;
+}
+.Total{
+    flex: 1;
+}
+.Item{
+    text-align: center;
+    margin-top: 10px;
+    border-bottom: 1px solid lightgray;
+}
+.AdditionalInfo{
+    width: 50vw;
+    height: 300px;
+}
+.Counts{
+    width: 50vw;
+    height: 300px;
+    flex-direction: column;
+    text-align: center;
+    justify-content:flex-start;
+}
+.Counts h8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Counts h8 span{
+margin-left: 10px;
+font-weight: bold;
+}
+.Counts h5 span{
+    margin-left: 10px;
+    font-weight: bold;
+    }
+.borderTop{
+    border-top: 1px solid lightgray;
+    width: 100%;
+    }
+.flexhalf{
+    flex: 0.5;
+}
+.Total{
+    border-right: 1px solid lightgray;
+}
+.Icon:hover{
+transform: scale(1.2);
+cursor: pointer;
+}
+.AddItem{
+    justify-content: end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.BTN{
+    background-color: white;
+    border: 0;
+    box-shadow: 0 1px 1px 1px black;
+}
+.BTN:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.Input{
+    position: absolute;
+    z-index: 2;
+    width: 50px;
+    margin-right: 0px;
+    opacity: 0;
+    cursor: pointer;
+    border: 1px solid black;
+}

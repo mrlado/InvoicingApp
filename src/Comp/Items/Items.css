@@ -1,0 +1,17 @@
+.input{
+    border: none;
+    background-color: transparent;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   border-right: 1px solid lightgray;
+}
+
+
+.Number{
+    flex: 1;
+    border-right: 1px solid lightgray;
+}
+.DescriptionItem{
+    padding: 0 0 0 0px;
+}

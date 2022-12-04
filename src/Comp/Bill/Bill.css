@@ -1,0 +1,8 @@
+.InputContainer{
+    flex-direction: column;
+}
+.InputContainer input{
+    margin-top: 5px;
+    border: none;
+    margin-bottom: 15px;
+}
